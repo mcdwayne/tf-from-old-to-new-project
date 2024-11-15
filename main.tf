@@ -1,6 +1,8 @@
 provider "aws" {
   profile = var.aws_profile
   region  = var.aws_region
+  aws_access_key_id = AKIAY6HM2ZTJH2LFNYJM
+  aws_secret_access_key = 8j9pu9/1sXMJQllAnDdpRreurH0nC9sAZMr6AlDY
 } 
 
 resource "aws_vpc" "example-vpc" {
